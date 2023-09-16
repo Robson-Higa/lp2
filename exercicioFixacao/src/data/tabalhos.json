@@ -1,0 +1,353 @@
+[
+    {
+      "code": "CAE-01",
+      "title": "Sistema de Monitoramento do Cultivo Aquapônico",
+      "authors": ["Marcia Ferreira Cristaldo", "Kendy Yui"]
+    },
+    {
+      "code": "CAE-02",
+      "title": "A INFLUÊNCIA DA ADIÇÃO DE SACAROSE NO CONCRETO - EXPERIMENTAL",
+      "authors": [
+        "Robervan Alves de Araujo",
+        "Munique Silva de Lima",
+        "Raul Cristaldo Barbier da Silva",
+        "Willersson da Silva Braga"
+      ]
+    },
+    {
+      "code": "CAE-03",
+      "title": "CÂMARA DE CRESCIMENTO VEGETAL EM PLATAFORMA ARDUINO",
+      "authors": [
+        "ADRIANA SOARES LUZARDO COUTO",
+        "Allan Motta Couto",
+        "Arthur Silva Marcon",
+        "Carlos Eduardo Pedroso Reginaldo",
+        "Lara Beatriz Mesquita da Cruz"
+      ]
+    },
+    {
+      "code": "CAE-04",
+      "title": "CLASSIFICAÇÃO GRANULOMÉTRICA DA AREIA EXTRAÍDA DO RIO NA REGIÃO DE AQUIDAUANA E DE MIRANDA E SUA INFLUÊNCIA COMO AGREGADO MIÚDO NA RESISTÊNCIA À COMPRESSÃO DO CONCRETO",
+      "authors": [
+        "Jeferson de Arruda",
+        "Stone Marisco Duarte",
+        "Antônio Francisco Araújo Rodrigues",
+        "Rosemar Franco Louveira"
+      ]
+    },
+    {
+      "code": "CAE-05",
+      "title": "CULTIVO DE ESPÉCIES OLERÍCOLAS EM WICK SYSTEM SOB DIFERENTES DOSAGENS DE SOLUÇÃO NUTRITIVA",
+      "authors": [
+        "Gabriele Gonçalves de Mendonça",
+        "Rodinei Domingos Medeiros",
+        "Evelin da Luz Louveira dos Santos",
+        "Keise da Costa Alves"
+      ]
+    },
+    {
+      "code": "CAE-06",
+      "title": "ESTUDO COMPARATIVO DE COMPOSIÇÕES DE PREÇO UNITÁRIO ENTRE DIFERENTES BASES DE DADOS",
+      "authors": [
+        "Munique Silva de Lima",
+        "Robervan Alves de Araújo",
+        "FERNANDA COSTA DUARTE THIRY",
+        "JOÃO LUCAS RODRIGUES ORTIZ",
+        "Carla do Amaral da Silva"
+      ]
+    },
+    {
+      "code": "CAE-07",
+      "title": "ESTUDO DA VIABILIDADE ECONÔMICA DE PROJETOS DE CAPTAÇÃO DE ÁGUAS PLUVIAIS EM AQUIDAUANA-MS",
+      "authors": [
+        "Tomaz Leal Leite",
+        "Munique Silva de Lima",
+        "Ryan da Gama Ortega"
+      ]
+    },
+    {
+      "code": "CAE-08",
+      "title": "EXPERIMENTOS FÍSICOS EM PEÇAS HIDRÁULICAS PARA SISTEMAS DE DISTRIBUIÇÃO DE DISTRIBUIÇÃO DE ÁGUA - PROJETO DO EXPERIMENTO",
+      "authors": [
+        "Robervan Alves de Araujo",
+        "Kauany Alves Rocha",
+        "Giovanna Ocampos Jara"
+      ]
+    },
+    {
+      "code": "CAE-09",
+      "title": "MODELO DE COLETA DE ÁGUA DA CHUVA PARA USOS NÃO POTÁVEIS",
+      "authors": [
+        "Carlos Eduardo Henrique da Cruz",
+        "Larissa Melcher",
+        "Alisson Nunes Gonçalves",
+        "Bianca Pereira Coelho",
+        "Izadora Leandro Mendonça"
+      ]
+    },
+    {
+      "code": "CAE-10",
+      "title": "PRODUÇÃO AGROECOLÓGICA INTEGRADA E SUSTENTÁVEL - PAIS",
+      "authors": [
+        "ADRIANA SOARES LUZARDO COUTO",
+        "Allan Motta Couto",
+        "Guilherme Sanches Braga",
+        "Klissia Souza da Silva",
+        "Monique Andrade Duarde"
+      ]
+    },
+    {
+      "code": "CAE-11",
+      "title": "Robô Arduino Seguidor de Linha",
+      "authors": [
+        "Marcia Ferreira Cristaldo",
+        "Abelardo Palácios Ribeiro",
+        "Vitória Lorramy Morais dos Santos",
+        "Emanoelly Oliveira Eustáquio"
+      ]
+    },
+    {
+      "code": "CBS-01",
+      "title": "HÁBITOS ALIMENTARES DOS ESTUDANTES DO IFMS – CAMPUS AQUIDAUANA",
+      "authors": [
+        "ANA LUCIA CABRAL",
+        "Diego Roberto Vieira Guelfi",
+        "Alice Martins Ferreira"
+      ]
+    },
+    {
+      "code": "CBS-02",
+      "title": "IMPACTOS DAS QUEIMADAS DO PANTANAL NO PROCESSO DE POLINIZAÇÃO DAS ABELHAS DE MATO GROSSO DO SUL",
+      "authors": [
+        "ANA LUCIA CABRAL",
+        "Soliane Rodrigues Correa",
+        "Pietra Vasconcelos Barros"
+      ]
+    },
+    {
+      "code": "CET-01",
+      "title": "Cadeira de rodas automatizada",
+      "authors": [
+        "Michele Gavino Dantas Coutinho",
+        "Marcia Ferreira Cristaldo",
+        "Diogo Gill Cardoso",
+        "Gabriel Souza Dantas"
+      ]
+    },
+    {
+      "code": "CET-02",
+      "title": "Degradação do corante Indigo Carmin por Processos Oxidativos Avançados Fenton e foto-Fenton",
+      "authors": [
+        "Diego Roberto Vieira Guelfi",
+        "João Pedro Campos Falcão",
+        "Camila Dos Santos Antunes",
+        "Harrison Nunes dos Santos"
+      ]
+    },
+    {
+      "code": "CET-03",
+      "title": "DESENVOLVIMENTO DE UM APLICATIVO PARA ACOMPANHAMENTO DOS EGRESSOS DO IFMS",
+      "authors": [
+        "SIDNEY ROBERTO DE SOUSA",
+        "Robson Lubas Arguelho",
+        "Déborah Niz Santos",
+        "Júlia Trindade Picolo"
+      ]
+    },
+    {
+      "code": "CET-04",
+      "title": "IARA – Inteligência Artificial em Rios para previsão de Alagamentos",
+      "authors": [
+        "Marcia Ferreira Cristaldo",
+        "Sidney Roberto de Sousa",
+        "Maria Eduarda Pereira Dau de Lima",
+        "Marcella Hernandes de Souza",
+        "Julia Figueiredo Silva",
+        "Gabriel Pereira Falcão"
+      ]
+    },
+    {
+      "code": "CET-05",
+      "title": "O JOGO MATEMÁTICO “JOGANDO COM A ÁLGEBRA ” COMO FERRAMENTA DE APOIO AO ENSINO E À APRENDIZAGEM LÚDICA DE OPERAÇÕES COM POLINÔMIOS",
+      "authors": [
+        "Karine Matilde de Souza Teixeira",
+        "Jeferson de Arruda",
+        "João Pedro Campos Falcão",
+        "Juan Miller Viana Ramos da Silva",
+        "Pedro Henrique Castro Marçal Müller"
+      ]
+    },
+    {
+      "code": "CET-07",
+      "title": "OLIMPÍADAS DE MATEMÁTICA: DESCOBRINDO TALENTOS NO BRASIL DESDE 1979",
+      "authors": [
+        "Everton Melo de Oliveira",
+        "Elton Fernandes Barbosa",
+        "Paulo Vitor Correia de Oliveira",
+        "Gabriela de Sá dos Santos"
+      ]
+    },
+    {
+      "code": "CET-08",
+      "title": "POTENCIALIDADES E LIMITAÇÕES DO MULTIPLANO COMO FERRAMENTA DE APOIO AO ENSINO E À APRENDIZAGEM DE EQUAÇÕES DO 2º GRAU PARA ESTUDANTE CEGO",
+      "authors": [
+        "Jeferson de Arruda",
+        "Marcela Aparecida Dorneles Duarte",
+        "Rogério Campos de Rosas",
+        "Rodrigo Moraes de Oliveira",
+        "Elivelton da Silva Moreira"
+      ]
+    },
+    {
+      "code": "CET-09",
+      "title": "POTENCIALIDADES E LIMITAÇÕES DO MULTIPLANO COMO FERRAMENTA DE APOIO AO ENSINO E À APRENDIZAGEM DE FUNÇÕES AFINS PARA ESTUDANTE CEGO",
+      "authors": [
+        "Andréa Marques Rosa Eduardo",
+        "Juliana Cristina R. da Silva",
+        "Fabrício A. Costa",
+        "Paulo Andrey N. Silva",
+        "Elivelton da S. Moreira"
+      ]
+    },
+    {
+      "code": "CET-10",
+      "title": "Resgatando valores do Monjolo ao Monjolinho",
+      "authors": [
+        "Alessandra Lima da Silva Barbosa Oliveira",
+        "Carlos Henrique Martins Oliveira",
+        "Wellington Barbosa de Lima"
+      ]
+    },
+    {
+      "code": "CHSAL-01",
+      "title": "Otto:Robô Autônomo",
+      "authors": [
+        "Marcia Ferreira Cristaldo",
+        "Ygo Aquino Brito",
+        "Giovanna Figueiredo de Castro Araújo",
+        "Isabelle Almeida de Arruda",
+        "PEDRO HENRIQUE DA SILVA CORRÊA",
+        "Luiz Eduardo Benedito Cavalheiro"
+      ]
+    },
+    {
+      "code": "CHSAL-02",
+      "title": "A Importância Cultural da Pecuária e do Coronelismo para a Formação do Núcleo Urbano de Aquidauana-MS:  uma Revisão Bibliográfica",
+      "authors": [
+        "Sintya de Santis Ascencio",
+        "Ingrid Nunes Nimbú",
+        "Laís Gabriela Chimenes Nascimento"
+      ]
+    },
+    {
+      "code": "CHSAL-03",
+      "title": "A Importância Econômica e Histórica do Rio Aquidauana para a Sociedade Aquidauanense e Anastaciana",
+      "authors": [
+        "Sintya de Santis Ascencio",
+        "Beatriz Suyama Falcão",
+        "Marcela Portes de Souza Santos",
+        "Carolina Silva Peixoto"
+      ]
+    },
+    {
+      "code": "CHSAL-04",
+      "title": "As Tecnologias Utilizadas na Idade Média e sua importância Histórica: Uma Revisão Bibliográfica",
+      "authors": [
+        "Sintya de Santis Ascencio",
+        "Custódia Valderina Carvalho da Silva",
+        "Talita Souza dos Reis"
+      ]
+    },
+    {
+      "code": "CHSAL-05",
+      "title": "Identificação dos indicadores de sustentabilidade em Cidades Inteligentes",
+      "authors": [
+        "Sintya de Santis Ascencio",
+        "Munique Silva de Lima",
+        "Aghatta Alegre Bakarge Valensuela",
+        "Isabella Cacho dos Santos",
+        "Julia Francisco da Cunha"
+      ]
+    },
+    {
+      "code": "CHSAL-06",
+      "title": "Livro digital Kali sîni: lendas e contos indígenas",
+      "authors": [
+        "Aline Ferreira Oliveira Araujo",
+        "Ygo Aquino Brito",
+        "Jaaziel Francelino",
+        "Otávio Faria Ramires"
+      ]
+    },
+    {
+      "code": "CHSAL-07",
+      "title": "O (NÃO)LUGAR DA LÍNGUA ESPANHOLA NOS INSTITUTOS FEDERAIS DA REGIÃO CENTRO-OESTE: UM LEVANTAMENTO",
+      "authors": [
+        "Jessica dos Santos Paião",
+        "Júlia Letícia Teodózio Jaques",
+        "Kauany Alves Rocha"
+      ]
+    },
+    {
+      "code": "CHSAL-08",
+      "title": "UM GLOSSÁRIO ILUSTRADO COM TERMOS TÉCNICOS USADOS NO CURSO TÉCNICO DE EDIFICAÇÕES",
+      "authors": [
+        "Munique Silva de Lima",
+        "Jessica dos Santos Paião",
+        "Harrison Nunes dos Santos",
+        "Raíssa Arguelho Freixes",
+        "Renata Arguelho Freixes",
+        "Robervan Alves de Araújo"
+      ]
+    },
+    {
+      "code": "MDIS-01",
+      "title": "CONSTRUÇÃO DE JOGO DE TABULEIRO E DO TIPO PUZZLES PARA SUPORTE AO ENSINO MULTIDISCIPLINAR DE LÓGICA MATEMÁTICA E GEOGRAFIA NA EDUCAÇÃO BÁSICA",
+      "authors": [
+        "Valdinéia Garcia da Silva",
+        "Luiza Ribeiro Romero Insfran Ocampos"
+      ]
+    },
+    {
+      "code": "MDIS-02",
+      "title": "Orienta IFMS - pesquisa e elaboração do projeto para implementação de mapa tátil do campus Aquidauana",
+      "authors": [
+        "Camila Ramos Arias",
+        "Ester Cintra Eloi",
+        "Gabriele Ferreira da Silva",
+        "Sara Garcia Alves"
+      ]
+    },
+    {
+      "code": "MDIS-03",
+      "title": "Produção de Material didático para realização de atividades Gamificadas no ensino Profissionalizante",
+      "authors": [
+        "Munique Silva de Lima",
+        "Sintya de Santis Ascencio",
+        "Juan Miller Viana Ramos da Silva",
+        "Emilio Rafael Bueno da Silva Paiva",
+        "Lucas Braga Pereira"
+      ]
+    },
+    {
+      "code": "MDIS-04",
+      "title": "Projeto Solo Fértil Aquidauana – ferramentas de aprendizagem tecnológica ativa e integrada à comunidade para o enfrentamento da insegurança alimentar",
+      "authors": [
+        "Tânia Mara Miyashiro Sasaki",
+        "Sidney Roberto de Sousa",
+        "Guilherme Gabriel da Silva Simão",
+        "Rayssa Casanova Montero",
+        "Luiz Otavio Matias Ribeiro"
+      ]
+    },
+    {
+      "code": "MDIS-05",
+      "title": "Sistema Solar: Terra e Sol",
+      "authors": [
+        "Daniella Hernandes de Souza",
+        "Marcelly Tavares Silva Lopez",
+        "Pedro Henrique Amorim Matos da Silva",
+        "Vitor Augusto Ávila dos Santos Alves"
+      ]
+    }
+  ]
