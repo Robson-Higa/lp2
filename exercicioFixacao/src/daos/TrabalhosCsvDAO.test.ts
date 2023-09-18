@@ -16,4 +16,9 @@ describe('Tests over ContactCsvDAO', () => {
    const trabalho = trabalhoDAO.findJobsByPartialTitle('DO PANTANAL NO PROCESSO')
     expect(trabalho?.title).toBe('IMPACTOS DAS QUEIMADAS DO PANTANAL NO PROCESSO DE POLINIZAÇÃO DAS ABELHAS DE MATO GROSSO DO SUL')
   })
+
+  it('should retrieve an titles by author', () => {
+    const trabalho = trabalhoDAO.findJobsByAuthor('Tomaz Leal Leite')
+     expect(trabalho?.title).toBe('ESTUDO DA VIABILIDADE ECONÔMICA DE PROJETOS DE CAPTAÇÃO DE ÁGUAS PLUVIAIS EM AQUIDAUANA-MS')
+   })
 })
