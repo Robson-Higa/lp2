@@ -13,7 +13,7 @@ describe('Tests over ContactCsvDAO', () => {
   })
 
   it('should retrieve a title by part of it', () => {
-    const trabalho = trabalhoDAO.findJobsByPartialTitle('câmara de crescimento vegetal EM PLATAFORMA ARDUINO')
-    expect(trabalho?.title).toBe('CÂMARA DE CRESCIMENTO VEGETAL EM PLATAFORMA ARDUINO')
+   const trabalho = trabalhoDAO.findJobsByPartialTitle('DO PANTANAL NO PROCESSO')
+    expect(trabalho?.title).toBe('IMPACTOS DAS QUEIMADAS DO PANTANAL NO PROCESSO DE POLINIZAÇÃO DAS ABELHAS DE MATO GROSSO DO SUL')
   })
 })

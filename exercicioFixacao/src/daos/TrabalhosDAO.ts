@@ -1,12 +1,12 @@
 import { join } from 'path'
 import { readFileSync } from 'fs'
 import { Trabalho } from '../models/Trabalhos'
+import { title } from 'process'
 
 export class TrabalhosDAO {
   protected _trabalhos: Trabalho[]
   protected _strContent: string
-  private _values: number[]
-
+ 
 
   constructor(filename: string) {
     const fileName = join(__dirname, '..', 'data', filename)
@@ -19,13 +19,12 @@ export class TrabalhosDAO {
     return trabalho
   }
   
-  getJobsByPartialTitle(partialTitle: string): string[] {
+  findJobsByPartialTitle(partialTitle: string): Trabalho | undefined {
+    partialTitle = partialTitle.toUpperCase()
+    const trabalho = this._trabalhos.find((c) => c.title === trabalho?.title.includes(partialTitle))
     
-  this._values = []
-    partialTitle = partialTitle.toLowerCase(); // Converter para minúsculas para tornar a pesquisa case-insensitive
-
-    return this._values.filter((title) =>
-      title.toLowerCase().includes(partialTitle)
-    );
+    
+    return trabalho
+  
   }
 }

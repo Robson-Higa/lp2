@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1694867684824" clover="3.2.0">
-  <project timestamp="1694867684824" name="All files">
-    <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="25" coveredelements="24" complexity="0" loc="18" ncloc="18" packages="1" files="2" classes="2"/>
+<coverage generated="1695048842763" clover="3.2.0">
+  <project timestamp="1695048842764" name="All files">
+    <metrics statements="19" coveredstatements="18" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="7" elements="30" coveredelements="26" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
     <file name="TrabalhosCsvDAO.ts" path="C:\Users\Buriti\Documents\LP2\lp2\exercicioFixacao\src\daos\TrabalhosCsvDAO.ts">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="2" count="1" type="stmt"/>
@@ -14,17 +14,18 @@
       <line num="15" count="100" type="stmt"/>
     </file>
     <file name="TrabalhosDAO.ts" path="C:\Users\Buriti\Documents\LP2\lp2\exercicioFixacao\src\daos\TrabalhosDAO.ts">
-      <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="1" methods="5" coveredmethods="5"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="16" count="6" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="25" count="0" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="18" count="6" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="cond" truecount="1" falsecount="3"/>
+      <line num="27" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
