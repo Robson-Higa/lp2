@@ -19,22 +19,17 @@ export class TrabalhosDAO {
     return trabalho
   }
 
-  findJobsByPartialTitle(partialTitle: string): Trabalho | undefined {
+  findJobsByPartialTitle(partialTitle: string): Trabalho  | undefined {
     partialTitle = partialTitle.toUpperCase()
-    const trabalho = this._trabalhos.find((c) => c.title === trabalho.title.includes(partialTitle))
-    return trabalho
+      const trabalhos = this._trabalhos.find((trabalho) => trabalho.title.toUpperCase().includes(partialTitle))
+      return trabalhos
   }
 
   findJobsByAuthor(author: string): Trabalho | undefined {
     author = author.toUpperCase()
-    //const trabalho = this._trabalhos.filter(trabalho => {trabalho.author.toLowerCase() ===
-      // trabalho.author.includes(author);
-   // })
-   const trabalho = this._trabalhos.find((c) => c.author === author)
-   if(trabalho?.author.toUpperCase().includes(author)){
-
-    return trabalho
-   }
-  }
+    const authors = this._trabalhos.find((trabalho) => trabalho.author.toUpperCase().includes(author))
+      return authors
+   
+}
 }
 

@@ -1,4 +1,4 @@
-export type Trabalho = {
+export type Trabalho= {
     code: string
     title: string
     author: string

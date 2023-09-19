@@ -13,12 +13,13 @@ describe('Tests over ContactCsvDAO', () => {
   })
 
   it('should retrieve a title by part of it', () => {
-   const trabalho = trabalhoDAO.findJobsByPartialTitle('DO PANTANAL NO PROCESSO')
+   const trabalho = trabalhoDAO.findJobsByPartialTitle('DO pantANAL NO PROCESSO')
     expect(trabalho?.title).toBe('IMPACTOS DAS QUEIMADAS DO PANTANAL NO PROCESSO DE POLINIZAÇÃO DAS ABELHAS DE MATO GROSSO DO SUL')
   })
 
   it('should retrieve an titles by author', () => {
-    const trabalho = trabalhoDAO.findJobsByAuthor('Tomaz Leal Leite')
-     expect(trabalho?.title).toBe('ESTUDO DA VIABILIDADE ECONÔMICA DE PROJETOS DE CAPTAÇÃO DE ÁGUAS PLUVIAIS EM AQUIDAUANA-MS')
-   })
+    const trabalho = trabalhoDAO.findJobsByAuthor('Marcia Ferreira Cristaldo')
+    expect(trabalho?.title).toBe('Sistema de Monitoramento do Cultivo Aquapônico')
+    expect(trabalho?.title).toBe('Robô Arduino Seguidor de Linha')
+  })
 })
