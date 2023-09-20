@@ -26,7 +26,7 @@ export class VegetablesDAO {
 
   findNamebyBenefits(benefitsUpper: string): Vegetable | undefined {
     benefitsUpper = benefitsUpper.toUpperCase()
-    const benefits = this._vegetables.find((vegetable) => vegetable.benefits.toUpperCase() === benefitsUpper)
+    const benefits = this._vegetables.find((vegetable) => vegetable.benefits.toUpperCase().includes(benefitsUpper))
       return benefits
    
 }

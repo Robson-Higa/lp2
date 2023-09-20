@@ -18,7 +18,7 @@ describe('Tests over VegetableCsvDAO', () => {
   })
 
   it('should retrieve name by benefits', () => {
-    const vegetable = vegetableDAO.findNamebyBenefits('Ajuda emagrecer  Previne a prisão de ventre  Ajuda no controle do diabetes  Facilita a digestão')
-    expect(vegetable?.name).toBe('Tomate Cereja')
+    const vegetable = vegetableDAO.findNamebyBenefits('As suas folhas são ricas em vitamina ')
+    expect(vegetable?.name).toBe('Alface Crespa')
   })
 })
