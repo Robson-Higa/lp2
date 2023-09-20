@@ -5,19 +5,18 @@ export class TrabalhosCsvDAO extends TrabalhosDAO {
   constructor() {
     super('trabalhos.csv')
 
-    const arr = this._strContent.split('\n').slice(1, 141); // Use '\n' em vez de ',' para dividir linhas e ajuste os índices.
+    const arr = this._strContent.split('\n').slice(1, 141)
+    for (const line of arr) {
+            const values = line.split(',')
 
-    for (const line of arr) { // Use um loop for..of para percorrer as linhas.
-      const values = line.split(','); // Divida cada linha em valores separados por vírgula.
-
-      if (values.length === 3) { // Verifique se há exatamente 3 valores em cada linha.
+      if (values.length === 3) {
         const trabalho: Trabalho = {
-          code: values[0], // Use values[0] para o código.
-          title: values[1], // Use values[1] para o título.
-          author: values[2].split('\n'), // Divida os autores usando ';' em vez de '\n'.
+          code: values[0], 
+          title: values[1], 
+          author: values[2].toUpperCase().split('\n'),
         };
 
-        this._trabalhos.push(trabalho);
+        this._trabalhos.push(trabalho)
       }
     }
   }
