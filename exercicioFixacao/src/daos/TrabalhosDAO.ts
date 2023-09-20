@@ -26,8 +26,8 @@ export class TrabalhosDAO {
   }
 
   findJobsByAuthor(author: string): Trabalho | undefined {
-    author = author.toUpperCase()
-    const authors = this._trabalhos.find((trabalho) => trabalho.author.toUpperCase().includes(author))
+    //author = author.toUpperCase()
+    const authors = this._trabalhos.find((trabalho) => trabalho.author.includes(author))
       return authors
    
 }

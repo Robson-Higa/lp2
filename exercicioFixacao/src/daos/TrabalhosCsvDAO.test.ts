@@ -20,6 +20,6 @@ describe('Tests over ContactCsvDAO', () => {
   it('should retrieve an titles by author', () => {
     const trabalho = trabalhoDAO.findJobsByAuthor('Marcia Ferreira Cristaldo')
     expect(trabalho?.title).toBe('Sistema de Monitoramento do Cultivo Aquapônico')
-    expect(trabalho?.title).toBe('Robô Arduino Seguidor de Linha')
+    expect(trabalho?.title).toBe('ROBÔ SEGUIDOR DE LINHA')
   })
 })
