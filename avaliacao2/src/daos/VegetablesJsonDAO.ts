@@ -1,4 +1,4 @@
-import { Vegetable } from '../models/vegetable'
+import { Vegetable } from '../models/Vegetable'
 import { VegetablesDAO } from './VegetablesDAO'
 
 export class VegetablesJsonDAO extends VegetablesDAO {

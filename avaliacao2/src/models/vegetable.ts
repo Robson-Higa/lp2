@@ -1,5 +1,5 @@
 export type Vegetable = {
-    id: string
+    id: number
     name: string
     benefits: string
   }

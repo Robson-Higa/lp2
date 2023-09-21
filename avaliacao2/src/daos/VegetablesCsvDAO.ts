@@ -1,4 +1,4 @@
-import { Vegetable } from '../models/vegetable'
+import { Vegetable } from '../models/Vegetable'
 import { VegetablesDAO } from './VegetablesDAO'
 
 export class VegetablesCsvDAO extends VegetablesDAO {
@@ -8,12 +8,9 @@ export class VegetablesCsvDAO extends VegetablesDAO {
     const arr = this._strContent.split('\n').slice(1, 29)
     arr.forEach((c) => {
       let values = c.split(',')
-      if(values.length >= 4) {
-
-        values = c.split('"')
-      }
+      
       const vegetable: Vegetable = {
-        id: values[0],
+        id: Number(values[0]),
         name: values[1],
         benefits: values[3],
       }

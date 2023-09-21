@@ -1,6 +1,6 @@
 import { join } from 'path'
 import { readFileSync } from 'fs'
-import { Vegetable } from '../models/vegetable'
+import { Vegetable } from '../models/Vegetable'
 
 export class VegetablesDAO {
   protected _vegetables: Vegetable[]
@@ -13,20 +13,20 @@ export class VegetablesDAO {
     this._vegetables = []
   }
 
-  findNamebyId(id: string): Vegetable | undefined {
+  findVegetableById(id: number): Vegetable | undefined {
     const vegetable = this._vegetables.find((c) => c.id === id)
     return vegetable
   }
 
-  findVegetablebyPartialName(partialName: string): Vegetable  | undefined {
+  findVegetableByPartialName(partialName: string): Vegetable[] {
     partialName = partialName.toUpperCase()
-      const vegetables = this._vegetables.find((vegetable) => vegetable.name.toUpperCase().includes(partialName))
+      const vegetables = this._vegetables.filter((vegetable) => vegetable.name.toUpperCase().includes(partialName))
       return vegetables
   }
 
-  findNamebyBenefits(benefitsUpper: string): Vegetable | undefined {
+  findVegetableByBenefits(benefitsUpper: string): Vegetable[] {
     benefitsUpper = benefitsUpper.toUpperCase()
-    const benefits = this._vegetables.find((vegetable) => vegetable.benefits.toUpperCase().includes(benefitsUpper))
+    const benefits = this._vegetables.filter((vegetable) => vegetable.benefits.toUpperCase().includes(benefitsUpper))
       return benefits
    
 }
